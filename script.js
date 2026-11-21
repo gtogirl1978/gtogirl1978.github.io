@@ -1,0 +1,33 @@
+const translations = {
+  zh: {
+    topline:'欢迎来到我的个人空间 · Welcome to my corner of the world',navAbout:'关于我',navTeaching:'教学理念',navOfferings:'课程与服务',navNotes:'学习灵感',navContact:'联系我',heroEyebrow:'英语教师 · English Educator',heroLine1:'让英语成为',heroLine2:'连接世界的力量。',heroSub:'Hi, I’m Jenny. 我相信，学习一门语言不只是记住单词和语法，更是获得表达自己、理解他人和探索世界的勇气。',heroButton:'认识 Jenny',heroSecondary:'了解我的教学理念',signature:'Teach with care. Learn with curiosity.',portraitNote:'在这里放上你的个人照片',scroll:'向下探索',introQuote:'“A different language is a different vision of life.”',aboutTitle:'你好，我是 Jenny',aboutAside:'一位相信语言有温度的英语教师。',aboutLead:'我希望帮助每一位学习者，找到属于自己的英语声音。',aboutText:'对我来说，好的英语学习体验应该既有清晰的方法，也有真实的交流。它可以从一个新单词、一段对话或一次勇敢的开口开始，慢慢积累成看见更大世界的自信。',aboutHint:'这里之后可以补充你的教育背景、教学经历、擅长领域，以及一段更个人化的成长故事。',aboutLink:'和我聊聊',teachingTitle:'让学习回到<br><em>真实而有趣的表达。</em>',principle1Title:'以学习者为中心',principle1Text:'每个人的目标、节奏和起点都不同。先理解学习者，再设计适合他的学习路径。',principle2Title:'在真实场景中使用',principle2Text:'把语言放进生活、工作和兴趣里，让知识不止停留在练习册上。',principle3Title:'建立持续的自信',principle3Text:'允许试错，鼓励表达。每一次小小的进步，都值得被看见。',offeringsTitle:'一起找到适合你的<br><em>学习方式。</em>',offeringsDesc:'以下是网站的课程展示版块。具体课程类型、适合人群和安排，可以根据你的实际教学服务进一步完善。',offer1Title:'英语表达与沟通',offer1Text:'围绕真实话题练习表达，让英语更自然地融入日常交流。',offer2Title:'个性化学习指导',offer2Text:'根据学习目标与当前水平，梳理重点，建立可持续的学习节奏。',offer3Title:'学习资源与灵感',offer3Text:'分享实用工具、阅读素材和学习方法，让日常积累更有方向。',offerNote:'课程内容为初版示例，正式发布前请替换为你实际提供的课程与服务。',notesTitle:'一点学习灵感，<br><em>一点生活观察。</em>',notesIntro:'这里可以慢慢积累你的英语学习笔记、教学观察、书影音推荐，以及那些值得分享的小发现。',notesLink:'期待一起交流',note1Title:'把英语带进日常生活',note1Text:'从每天一个小表达开始，让输入和输出自然发生。',note2Title:'别害怕说错，先勇敢表达',note2Text:'流利不是一夜之间发生的，而是在一次次尝试中建立的。',contactTitle:'Let’s make<br><em>something meaningful.</em>',contactText:'无论是课程咨询、教学合作，还是关于语言学习的交流，都欢迎你联系我。',contactLabel:'联系 Jenny',emailHint:'请将此邮箱替换为你希望公开使用的联系邮箱。',socialPlaceholder:'添加社交主页',footerText:'用语言连接彼此，用好奇心探索世界。',backTop:'回到顶部 ↑'
+  },
+  en: {
+    topline:'Welcome to my corner of the world · 欢迎来到我的个人空间',navAbout:'About',navTeaching:'My Approach',navOfferings:'Work With Me',navNotes:'Notes & Ideas',navContact:'Contact',heroEyebrow:'ENGLISH TEACHER · EDUCATOR',heroLine1:'Let English be',heroLine2:'your way to the world.',heroSub:'Hi, I’m Jenny. I believe learning a language is about more than words and grammar. It is about finding the confidence to express yourself, understand others, and explore the world.',heroButton:'Meet Jenny',heroSecondary:'Explore my approach',signature:'Teach with care. Learn with curiosity.',portraitNote:'Add your portrait here',scroll:'SCROLL TO EXPLORE',introQuote:'“A different language is a different vision of life.”',aboutTitle:'Hello, I’m Jenny',aboutAside:'An English teacher who believes language should feel human.',aboutLead:'I want to help every learner find their own voice in English.',aboutText:'To me, a meaningful learning experience combines a clear path with genuine communication. It can begin with one new word, one conversation, or one brave attempt to speak—and grow into the confidence to see a bigger world.',aboutHint:'Add your education, teaching experience, areas of expertise, and a more personal story here.',aboutLink:'Let’s connect',teachingTitle:'Learning should feel<br><em>real, relevant, and joyful.</em>',principle1Title:'Learner first',principle1Text:'Every learner has a different goal, pace, and starting point. I believe in understanding the person before shaping the path.',principle2Title:'Language in real life',principle2Text:'Bring English into everyday life, work, and interests—so learning goes beyond the workbook.',principle3Title:'Confidence that grows',principle3Text:'Make room for mistakes and encourage expression. Every small step forward matters.',offeringsTitle:'Find a learning path<br><em>that feels like yours.</em>',offeringsDesc:'This is a starter showcase for your teaching services. We can tailor the course formats, audience, and details to what you actually offer.',offer1Title:'English communication',offer1Text:'Build practical expression around real topics and everyday conversations.',offer2Title:'Personal learning guidance',offer2Text:'Clarify priorities and build a sustainable learning rhythm around your goals and level.',offer3Title:'Resources & inspiration',offer3Text:'Discover useful tools, reading materials, and learning ideas for steady progress.',offerNote:'Sample content for the first draft. Replace with your actual courses and services before publishing.',notesTitle:'Learning notes,<br><em>little life observations.</em>',notesIntro:'A growing collection of English-learning notes, teaching reflections, reading recommendations, and small discoveries worth sharing.',notesLink:'Stay in touch',note1Title:'Bring English into everyday life',note1Text:'Start with one useful expression a day and let input and output happen naturally.',note2Title:'Speak bravely before speaking perfectly',note2Text:'Fluency rarely arrives overnight. It grows through every attempt.',contactTitle:'Let’s make<br><em>something meaningful.</em>',contactText:'For lesson enquiries, teaching collaborations, or a conversation about language learning, I’d love to hear from you.',contactLabel:'GET IN TOUCH',emailHint:'Replace this with the email address you want to share publicly.',socialPlaceholder:'Add your social profile',footerText:'Connecting through language. Exploring through curiosity.',backTop:'BACK TO TOP ↑'
+  }
+};
+let currentLang = 'zh';
+const langButton = document.querySelector('.lang-toggle');
+function setLanguage(lang){
+  currentLang = lang;
+  document.documentElement.lang = lang === 'zh' ? 'zh-CN' : 'en';
+  document.querySelectorAll('[data-i18n]').forEach(el => {
+    const key = el.dataset.i18n;
+    if (translations[lang][key] !== undefined) el.innerHTML = translations[lang][key];
+  });
+  document.querySelector('.lang-cn').classList.toggle('active', lang === 'zh');
+  document.querySelector('.lang-en').classList.toggle('active', lang === 'en');
+  langButton.setAttribute('aria-label', lang === 'zh' ? 'Switch to English' : '切换为中文');
+}
+langButton.addEventListener('click', () => setLanguage(currentLang === 'zh' ? 'en' : 'zh'));
+const menuButton = document.querySelector('.menu-toggle');
+const nav = document.querySelector('.main-nav');
+menuButton.addEventListener('click', () => {
+  const isOpen = nav.classList.toggle('open');
+  menuButton.setAttribute('aria-expanded', String(isOpen));
+  menuButton.textContent = isOpen ? '×' : '☰';
+});
+nav.querySelectorAll('a').forEach(link => link.addEventListener('click', () => {
+  nav.classList.remove('open'); menuButton.setAttribute('aria-expanded','false'); menuButton.textContent='☰';
+}));
+document.getElementById('year').textContent = new Date().getFullYear();
